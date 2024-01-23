@@ -1,0 +1,33 @@
+[0.408s] Invoking command in '/home/jitesh/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jitesh/ws_moveit2/install/moveit_configs_utils:/home/jitesh/ws_moveit2/install/launch_param_builder:/home/jitesh/bookros2_ws/install/launch_pal:/home/jitesh/bookros2_ws/install/br2_fsm_bumpgo_py:/home/jitesh/roboarm_ws/install/my_robot_arm:/home/jitesh/ros2_ws/install/urdf_tutorial:/home/jitesh/ros2_ws/install/py_srvcli:/home/jitesh/ros2_ws/install/py_pubsub:/home/jitesh/ros2_ws/install/my_robot_controller:/home/jitesh/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jitesh/arduinobot_ws/build/arduinobot_firmware -- -j12 -l12
+[0.525s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_transmitter[0m
+[0.590s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[0.590s] [ 50%] Built target ament_cmake_python_copy_arduinobot_firmware
+[0.957s] running egg_info
+[0.979s] writing arduinobot_firmware.egg-info/PKG-INFO
+[0.980s] writing dependency_links to arduinobot_firmware.egg-info/dependency_links.txt
+[0.981s] writing top-level names to arduinobot_firmware.egg-info/top_level.txt
+[1.193s] reading manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[1.196s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[1.323s] [ 50%] Built target ament_cmake_python_build_arduinobot_firmware_egg
+[3.793s] [01m[K/home/jitesh/arduinobot_ws/src/arduinobot_firmware/src/simple_serial_transmitter.cpp:37:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[3.793s]    37 | }
+[3.794s]       |  [01;31m[K^[m[K
+[3.795s]       |  [32m[K;[m[K
+[3.801s] [01m[K/home/jitesh/arduinobot_ws/src/arduinobot_firmware/src/simple_serial_transmitter.cpp:[m[K In constructor ‘[01m[KSimpleSerialTransmitter::SimpleSerialTransmitter()[m[K’:
+[3.801s] [01m[K/home/jitesh/arduinobot_ws/src/arduinobot_firmware/src/simple_serial_transmitter.cpp:16:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreat_subscription[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_subscription[m[K’?
+[3.802s]    16 |             sub_ = [01;31m[Kcreat_subscription[m[K<std_msgs::msg::String>("serial_transmitter",10 ,std::bind(&SimpleSerialTransmitter::msgCallback, this, _1))
+[3.803s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.803s]       |                    [32m[Kcreate_subscription[m[K
+[3.804s] [01m[K/home/jitesh/arduinobot_ws/src/arduinobot_firmware/src/simple_serial_transmitter.cpp:16:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.804s]    16 |             sub_ = creat_subscription<std_msgs::msg::String[01;31m[K>[m[K("serial_transmitter",10 ,std::bind(&SimpleSerialTransmitter::msgCallback, this, _1))
+[3.805s]       |                                                            [01;31m[K^[m[K
+[3.806s] [01m[K/home/jitesh/arduinobot_ws/src/arduinobot_firmware/src/simple_serial_transmitter.cpp:16:62:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.807s]    16 |             sub_ = creat_subscription<std_msgs::msg::String>([01;35m[K"serial_transmitter"[m[K,10 ,std::bind(&SimpleSerialTransmitter::msgCallback, this, _1))
+[3.808s]       |                                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.808s] [01m[K/home/jitesh/arduinobot_ws/src/arduinobot_firmware/src/simple_serial_transmitter.cpp:16:144:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.809s]    16 |             sub_ = creat_subscription<std_msgs::msg::String>("serial_transmitter",10 ,std::bind(&SimpleSerialTransmitter::msgCallback, this, _1[01;35m[K)[m[K)
+[3.810s]       |                                                                                                                                                [01;35m[K^[m[K
+[4.393s] gmake[2]: *** [CMakeFiles/simple_serial_transmitter.dir/build.make:76: CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o] Error 1
+[4.393s] gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/simple_serial_transmitter.dir/all] Error 2
+[4.393s] gmake: *** [Makefile:146: all] Error 2
+[4.398s] Invoked command in '/home/jitesh/arduinobot_ws/build/arduinobot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jitesh/ws_moveit2/install/moveit_configs_utils:/home/jitesh/ws_moveit2/install/launch_param_builder:/home/jitesh/bookros2_ws/install/launch_pal:/home/jitesh/bookros2_ws/install/br2_fsm_bumpgo_py:/home/jitesh/roboarm_ws/install/my_robot_arm:/home/jitesh/ros2_ws/install/urdf_tutorial:/home/jitesh/ros2_ws/install/py_srvcli:/home/jitesh/ros2_ws/install/py_pubsub:/home/jitesh/ros2_ws/install/my_robot_controller:/home/jitesh/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jitesh/arduinobot_ws/build/arduinobot_firmware -- -j12 -l12

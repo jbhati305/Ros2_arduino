@@ -1,0 +1,30 @@
+[0.419s] Invoking command in '/home/jitesh/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jitesh/ws_moveit2/install/moveit_configs_utils:/home/jitesh/ws_moveit2/install/launch_param_builder:/home/jitesh/bookros2_ws/install/launch_pal:/home/jitesh/bookros2_ws/install/br2_fsm_bumpgo_py:/home/jitesh/roboarm_ws/install/my_robot_arm:/home/jitesh/ros2_ws/install/urdf_tutorial:/home/jitesh/ros2_ws/install/py_srvcli:/home/jitesh/ros2_ws/install/py_pubsub:/home/jitesh/ros2_ws/install/my_robot_controller:/home/jitesh/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jitesh/arduinobot_ws/build/arduinobot_firmware -- -j12 -l12
+[0.472s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.749s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[0.749s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.807s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.811s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.823s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.894s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.986s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.995s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.246s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.539s] [31mCMake Error at CMakeLists.txt:26 (install):
+[1.539s]   install TARGETS given unknown argument "RUNTIME_DESTINATION".
+[1.539s] 
+[1.539s] [0m
+[1.539s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.655s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.655s] -- Configured cppcheck include dirs: /home/jitesh/arduinobot_ws/src/arduinobot_firmware/
+[1.655s] -- Configured cppcheck exclude dirs and/or files: 
+[1.655s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.655s] -- Added test 'lint_cmake' to check CMake code style
+[1.656s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.657s] -- Added test 'uncrustify' to check C / C++ code style
+[1.657s] -- Configured uncrustify additional arguments: 
+[1.657s] -- Added test 'xmllint' to check XML markup files
+[1.658s] -- Configuring incomplete, errors occurred!
+[1.659s] See also "/home/jitesh/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/CMakeOutput.log".
+[1.678s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[1.684s] Invoked command in '/home/jitesh/arduinobot_ws/build/arduinobot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jitesh/ws_moveit2/install/moveit_configs_utils:/home/jitesh/ws_moveit2/install/launch_param_builder:/home/jitesh/bookros2_ws/install/launch_pal:/home/jitesh/bookros2_ws/install/br2_fsm_bumpgo_py:/home/jitesh/roboarm_ws/install/my_robot_arm:/home/jitesh/ros2_ws/install/urdf_tutorial:/home/jitesh/ros2_ws/install/py_srvcli:/home/jitesh/ros2_ws/install/py_pubsub:/home/jitesh/ros2_ws/install/my_robot_controller:/home/jitesh/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jitesh/arduinobot_ws/build/arduinobot_firmware -- -j12 -l12

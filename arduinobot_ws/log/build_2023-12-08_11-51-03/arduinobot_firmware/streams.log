@@ -1,0 +1,11 @@
+[0.409s] Invoking command in '/home/jitesh/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jitesh/ws_moveit2/install/moveit_configs_utils:/home/jitesh/ws_moveit2/install/launch_param_builder:/home/jitesh/bookros2_ws/install/launch_pal:/home/jitesh/bookros2_ws/install/br2_fsm_bumpgo_py:/home/jitesh/roboarm_ws/install/my_robot_arm:/home/jitesh/ros2_ws/install/urdf_tutorial:/home/jitesh/ros2_ws/install/py_srvcli:/home/jitesh/ros2_ws/install/py_pubsub:/home/jitesh/ros2_ws/install/my_robot_controller:/home/jitesh/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jitesh/arduinobot_ws/build/arduinobot_firmware -- -j12 -l12
+[0.456s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.078s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[1.078s] [31mCMake Error at CMakeLists.txt:13 (ament_python_install_packages):
+[1.078s]   Unknown CMake command "ament_python_install_packages".
+[1.079s] 
+[1.079s] [0m
+[1.079s] -- Configuring incomplete, errors occurred!
+[1.080s] See also "/home/jitesh/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/CMakeOutput.log".
+[1.082s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.542s] Invoked command in '/home/jitesh/arduinobot_ws/build/arduinobot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jitesh/ws_moveit2/install/moveit_configs_utils:/home/jitesh/ws_moveit2/install/launch_param_builder:/home/jitesh/bookros2_ws/install/launch_pal:/home/jitesh/bookros2_ws/install/br2_fsm_bumpgo_py:/home/jitesh/roboarm_ws/install/my_robot_arm:/home/jitesh/ros2_ws/install/urdf_tutorial:/home/jitesh/ros2_ws/install/py_srvcli:/home/jitesh/ros2_ws/install/py_pubsub:/home/jitesh/ros2_ws/install/my_robot_controller:/home/jitesh/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jitesh/arduinobot_ws/build/arduinobot_firmware -- -j12 -l12

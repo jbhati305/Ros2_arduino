@@ -1,0 +1,54 @@
+[0.400s] Invoking command in '/home/jitesh/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jitesh/ws_moveit2/install/moveit_configs_utils:/home/jitesh/ws_moveit2/install/launch_param_builder:/home/jitesh/bookros2_ws/install/launch_pal:/home/jitesh/bookros2_ws/install/br2_fsm_bumpgo_py:/home/jitesh/roboarm_ws/install/my_robot_arm:/home/jitesh/ros2_ws/install/urdf_tutorial:/home/jitesh/ros2_ws/install/py_srvcli:/home/jitesh/ros2_ws/install/py_pubsub:/home/jitesh/ros2_ws/install/my_robot_controller:/home/jitesh/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jitesh/arduinobot_ws/build/arduinobot_firmware -- -j12 -l12
+[0.446s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.037s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[1.344s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.649s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.657s] -- Added test 'lint_cmake' to check CMake code style
+[1.657s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.664s] -- Added test 'xmllint' to check XML markup files
+[1.665s] -- Configuring done
+[1.672s] -- Generating done
+[1.674s] -- Build files have been written to: /home/jitesh/arduinobot_ws/build/arduinobot_firmware
+[1.945s] Built target ament_cmake_python_copy_arduinobot_firmware
+[2.727s] running egg_info
+[2.727s] creating arduinobot_firmware.egg-info
+[2.756s] writing arduinobot_firmware.egg-info/PKG-INFO
+[2.760s] writing dependency_links to arduinobot_firmware.egg-info/dependency_links.txt
+[2.762s] writing top-level names to arduinobot_firmware.egg-info/top_level.txt
+[3.010s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[3.164s] reading manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[3.165s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[3.387s] Built target ament_cmake_python_build_arduinobot_firmware_egg
+[3.424s] Invoked command in '/home/jitesh/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jitesh/ws_moveit2/install/moveit_configs_utils:/home/jitesh/ws_moveit2/install/launch_param_builder:/home/jitesh/bookros2_ws/install/launch_pal:/home/jitesh/bookros2_ws/install/br2_fsm_bumpgo_py:/home/jitesh/roboarm_ws/install/my_robot_arm:/home/jitesh/ros2_ws/install/urdf_tutorial:/home/jitesh/ros2_ws/install/py_srvcli:/home/jitesh/ros2_ws/install/py_pubsub:/home/jitesh/ros2_ws/install/my_robot_controller:/home/jitesh/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jitesh/arduinobot_ws/build/arduinobot_firmware -- -j12 -l12
+[3.586s] Invoking command in '/home/jitesh/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jitesh/ws_moveit2/install/moveit_configs_utils:/home/jitesh/ws_moveit2/install/launch_param_builder:/home/jitesh/bookros2_ws/install/launch_pal:/home/jitesh/bookros2_ws/install/br2_fsm_bumpgo_py:/home/jitesh/roboarm_ws/install/my_robot_arm:/home/jitesh/ros2_ws/install/urdf_tutorial:/home/jitesh/ros2_ws/install/py_srvcli:/home/jitesh/ros2_ws/install/py_pubsub:/home/jitesh/ros2_ws/install/my_robot_controller:/home/jitesh/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/jitesh/arduinobot_ws/build/arduinobot_firmware
+[3.672s] -- Install configuration: ""
+[3.673s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.sh
+[3.673s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.dsv
+[3.673s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info
+[3.673s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[3.673s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[3.673s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.673s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.673s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware
+[3.674s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_transmitter.py
+[3.674s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/__init__.py
+[3.725s] Listing '/home/jitesh/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware'...
+[3.725s] Compiling '/home/jitesh/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/__init__.py'...
+[3.725s] Compiling '/home/jitesh/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_transmitter.py'...
+[3.811s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter.py
+[3.819s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduinobot_firmware
+[3.824s] -- Up-to-date: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduinobot_firmware
+[3.826s] -- Up-to-date: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.sh
+[3.828s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.dsv
+[3.829s] -- Up-to-date: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.sh
+[3.829s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.dsv
+[3.830s] -- Up-to-date: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.bash
+[3.831s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.sh
+[3.832s] -- Up-to-date: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.zsh
+[3.833s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.dsv
+[3.835s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv
+[3.837s] -- Up-to-date: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/packages/arduinobot_firmware
+[3.838s] -- Up-to-date: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig.cmake
+[3.838s] -- Up-to-date: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig-version.cmake
+[3.839s] -- Installing: /home/jitesh/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.xml
+[3.839s] Invoked command in '/home/jitesh/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jitesh/ws_moveit2/install/moveit_configs_utils:/home/jitesh/ws_moveit2/install/launch_param_builder:/home/jitesh/bookros2_ws/install/launch_pal:/home/jitesh/bookros2_ws/install/br2_fsm_bumpgo_py:/home/jitesh/roboarm_ws/install/my_robot_arm:/home/jitesh/ros2_ws/install/urdf_tutorial:/home/jitesh/ros2_ws/install/py_srvcli:/home/jitesh/ros2_ws/install/py_pubsub:/home/jitesh/ros2_ws/install/my_robot_controller:/home/jitesh/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/jitesh/arduinobot_ws/build/arduinobot_firmware

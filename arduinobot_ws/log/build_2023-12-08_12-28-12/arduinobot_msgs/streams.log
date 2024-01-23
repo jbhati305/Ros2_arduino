@@ -1,0 +1,24 @@
+[0.801s] Invoking command in '/home/jitesh/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jitesh/ws_moveit2/install/moveit_configs_utils:/home/jitesh/ws_moveit2/install/launch_param_builder:/home/jitesh/bookros2_ws/install/launch_pal:/home/jitesh/bookros2_ws/install/br2_fsm_bumpgo_py:/home/jitesh/roboarm_ws/install/my_robot_arm:/home/jitesh/ros2_ws/install/urdf_tutorial:/home/jitesh/ros2_ws/install/py_srvcli:/home/jitesh/ros2_ws/install/py_pubsub:/home/jitesh/ros2_ws/install/my_robot_controller:/home/jitesh/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jitesh/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12
+[0.966s] [ 12%] Built target arduinobot_msgs__rosidl_generator_c
+[0.966s] [ 10%] Built target arduinobot_msgs__cpp
+[1.002s] [ 12%] Built target ament_cmake_python_copy_arduinobot_msgs
+[1.044s] [ 23%] Built target arduinobot_msgs__rosidl_typesupport_c
+[1.047s] [ 34%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c
+[1.049s] [ 45%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c
+[1.053s] [ 56%] Built target arduinobot_msgs__rosidl_typesupport_introspection_cpp
+[1.081s] [ 67%] Built target arduinobot_msgs__rosidl_typesupport_cpp
+[1.087s] [ 78%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp
+[1.150s] [ 78%] Built target arduinobot_msgs
+[1.213s] [ 80%] Built target arduinobot_msgs__py
+[1.276s] [ 89%] Built target arduinobot_msgs__rosidl_generator_py
+[1.308s] running egg_info
+[1.336s] writing arduinobot_msgs.egg-info/PKG-INFO
+[1.337s] writing dependency_links to arduinobot_msgs.egg-info/dependency_links.txt
+[1.338s] writing top-level names to arduinobot_msgs.egg-info/top_level.txt
+[1.348s] [ 92%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c__pyext
+[1.358s] [100%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.358s] [100%] Built target arduinobot_msgs__rosidl_typesupport_c__pyext
+[1.556s] reading manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[1.557s] writing manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[1.631s] [100%] Built target ament_cmake_python_build_arduinobot_msgs_egg
+[1.805s] Invoked command in '/home/jitesh/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jitesh/ws_moveit2/install/moveit_configs_utils:/home/jitesh/ws_moveit2/install/launch_param_builder:/home/jitesh/bookros2_ws/install/launch_pal:/home/jitesh/bookros2_ws/install/br2_fsm_bumpgo_py:/home/jitesh/roboarm_ws/install/my_robot_arm:/home/jitesh/ros2_ws/install/urdf_tutorial:/home/jitesh/ros2_ws/install/py_srvcli:/home/jitesh/ros2_ws/install/py_pubsub:/home/jitesh/ros2_ws/install/my_robot_controller:/home/jitesh/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jitesh/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12

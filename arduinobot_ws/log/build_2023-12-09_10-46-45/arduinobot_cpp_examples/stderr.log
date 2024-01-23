@@ -1,0 +1,11 @@
+[01m[K/home/jitesh/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_lifecycle_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jitesh/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_lifecycle_node.cpp:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executors[m[K’ has not been declared
+   71 |     rclcpp::[01;31m[Kexecutors[m[K::SingleThreadedExecutor ste;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jitesh/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_lifecycle_node.cpp:73:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kste[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd[m[K’?
+   73 |     [01;31m[Kste[m[K.add_node(simple_lifecycle_node->get_node_base_interface());
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kstd[m[K
+gmake[2]: *** [CMakeFiles/simple_lifecycle_node.dir/build.make:76: CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/simple_lifecycle_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
